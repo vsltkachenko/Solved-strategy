@@ -7,15 +7,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<!-- <link
 		rel="stylesheet"
-		href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+		href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css?_v=20230713190100"
 	/> -->
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link
-		href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap&_v=20230713190100"
 		rel="stylesheet"
 	/>
-	<link rel="stylesheet" href="css/style.min.css" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230713190100" />
 	<title>Solved strategy</title>
 </head>
 
@@ -45,13 +45,7 @@
 				</li>
 			</ul>
 		</nav>
-		<div class="nav__controlls">
-			<!-- <select class="select">
-				<option value="en">EN</option>
-				<option value="ua">UA</option>
-				<option value="bl">BL</option>
-				<option value="pl">PL</option>
-			</select> -->
+		<div class="nav__controlls">			
 			<form>
 	<!-- <input type="reset" class="reset" value="Clear it!" /> -->
 	<div class="__select" data-state="">
@@ -113,23 +107,30 @@
 	</div>
 	<!-- Hero -->
 	<section class="section__hero">
-	<div class="hero__gradient"></div>
-	<img class="hero__screen" src="img/screen.png" alt="screen" />
-	<div class="container">
-		<h1 class="hero__title">
-			The most advanced <span>5-cards</span> Omaha Solver for
-			<span>6-max</span> and HU
-		</h1>
-		<div class="hero_btns">
-			<a href="" class="btn btn__secondary hero__btn">Start now</a>
-			<span class="hero__span">or</span>
-			<a href="" class="btn btn__primary hero__btn">Take a free tour</a>
-		</div>
-		<p class="hero__text">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat eleifend
-			tristique scelerisque eget.
-		</p>
-	</div>
+  <div class="container">
+    <div class="hero__body">
+      <div class="hero__content">
+        <h1 class="hero__title">
+          The most advanced <span>5-cards</span> Omaha Solver for
+          <span>6-max</span> and HU
+        </h1>
+        <div class="hero_btns">
+          <a href="" class="btn btn__secondary hero__btn">Start now</a>
+          <span class="hero__span">or</span>
+          <a href="" class="btn btn__primary hero__btn">Take a free tour</a>
+        </div>
+        <p class="hero__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
+          eleifend tristique scelerisque eget.
+        </p>
+      </div>
+      <div class="hero__screen">
+        <picture><source srcset="img/screen.webp" type="image/webp"><img src="img/screen.png" alt="screen" /></picture>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__gradient"></div>
 </section>
 
 </header>
@@ -357,7 +358,7 @@
 				<div class="quote">
 					<div class="quote__item">
 						<div class="quote__item-img">
-							<img src="img/quote__avatar.png" alt="img" />
+							<picture><source srcset="img/quote__avatar.webp" type="image/webp"><img src="img/quote__avatar.png" alt="img" /></picture>
 						</div>
 					</div>
 					<div class="quote__item">
@@ -375,7 +376,7 @@
 				</a>
 			</div>
 			<div class="features__item">
-				<img src="img/features__img.jpg" alt="img" />
+				<picture><source srcset="img/features__img.webp" type="image/webp"><img src="img/features__img.jpg" alt="img" /></picture>
 			</div>
 		</div>
 	</div>
@@ -701,7 +702,7 @@
 	<div class="container">
 		<div class="learn">
 			<div class="learn__item learn__img">
-				<img src="img/learn__img.png" alt="learn" />
+				<picture><source srcset="img/learn__img.webp" type="image/webp"><img src="img/learn__img.png" alt="learn" /></picture>
 			</div>
 			<div class="learn__item">
 				<div class="section__icon learn__icon">
@@ -729,7 +730,7 @@
 			<div class="reviews__item">
 				<div class="reviews__info">
 					<div class="review__info-item">
-						<img src="img/review-1.png" alt="" />
+						<picture><source srcset="img/review-1.webp" type="image/webp"><img src="img/review-1.png" alt="" /></picture>
 					</div>
 					<div class="review__info-item">
 						<div class="review__title">Arlene Mccoy</div>
@@ -751,7 +752,7 @@
 			<div class="reviews__item">
 				<div class="reviews__info">
 					<div class="review__info-item">
-						<img src="img/review-2.png" alt="" />
+						<picture><source srcset="img/review-2.webp" type="image/webp"><img src="img/review-2.png" alt="" /></picture>
 					</div>
 					<div class="review__info-item">
 						<div class="review__title">Emil Schaefer</div>
@@ -773,7 +774,7 @@
 			<div class="reviews__item">
 				<div class="reviews__info">
 					<div class="review__info-item">
-						<img src="img/review-3.png" alt="" />
+						<picture><source srcset="img/review-3.webp" type="image/webp"><img src="img/review-3.png" alt="" /></picture>
 					</div>
 					<div class="review__info-item">
 						<div class="review__title">Mason Heaney</div>
@@ -1026,6 +1027,6 @@
 </footer>
 
 
-		<script src="js/app.min.js"></script>
+		<script src="js/app.min.js?_v=20230713190100"></script>
 	</body>
 </html>
